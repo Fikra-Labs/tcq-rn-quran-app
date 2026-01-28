@@ -161,6 +161,7 @@ const ReadScreen = ({ route, navigation }: ReadScreenProps) => {
   };
 
 
+
   const getLastViewedVerse = (scrollY: number) => {
     const offsets = verseOffsetsRef.current;
     const verseNumbers = Object.keys(offsets)
